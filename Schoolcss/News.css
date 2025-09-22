@@ -38,3 +38,8 @@ ul li a:hover:not(.newsbar) {
   background-color: gold;
   color:saddlebrown;
 }
+
+h1 {
+  color: saddlebrown;
+  text-align: center;
+}
