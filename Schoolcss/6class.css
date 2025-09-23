@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: wheat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  padding: 8px;
+  text-decoration: none;
+  border-bottom: 1px solid saddlebrown;
+  transition: background 0.5s;
+}
+
+ul li a:hover:not(.class6) {
+  background-color: deepskyblue;
+}
+
+.navbar li {
+  flex: 1;
+  text-align: center;
+}
+
+.class6 {
+  background-color: gold;
+  color:saddlebrown;
+}
