@@ -30,6 +30,7 @@ ul li a:hover:not(.class11) {
 }
 
 .navbar li {
+  position: relative;
   flex: 1;
   text-align: center;
 }
@@ -37,4 +38,36 @@ ul li a:hover:not(.class11) {
 .class11 {
   background-color: gold;
   color:saddlebrown;
+}
+
+.dropdown {
+  display: none;          
+  position: absolute;       
+  top: 100%;                 
+  left: 0;
+  background-color: skyblue;
+  min-width: 100%;
+  flex-direction: column;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0 ,0 ,0 ,0.5);
+}
+
+.dropdown li {
+  flex: unset;
+  text-align: center;
+}
+
+.dropdown li a {
+  border-bottom: 1px solid saddlebrown;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.dropdown li a:hover {
+  background-color: deepskyblue;
+}
+
+.navbar li:hover .dropdown {
+  display: flex;
 }
