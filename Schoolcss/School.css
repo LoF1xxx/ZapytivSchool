@@ -96,6 +96,13 @@ ul li a:hover:not(.mainbar) {
   display: flex;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: saddlebrown;
   color: white;
