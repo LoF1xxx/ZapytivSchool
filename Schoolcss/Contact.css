@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
   background: wheat;
 }
 
@@ -26,7 +25,7 @@ ul li a {
   transition: background 0.5s;
 }
 
-ul li a:hover:not(.mainbar) {
+ul li a:hover:not(.contact) {
   background-color: deepskyblue;
 }
 
@@ -36,32 +35,9 @@ ul li a:hover:not(.mainbar) {
   text-align: center;
 }
 
-.mainbar {
+.contact {
   background-color: gold;
   color:saddlebrown;
-}
-
-.maintext {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center;     
-  text-align: center;
-  height: calc(100% - 40px); 
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.maintext img {
-  max-height: 85%;  
-  width: 60%;
-  margin-bottom: 10px;
-  border: 5px solid;
-  border-image: linear-gradient(to bottom, skyblue, gold) 1;
-}
-
-.maintext h1 {
-  color: saddlebrown;
 }
 
 .dropdown {
@@ -94,29 +70,4 @@ ul li a:hover:not(.mainbar) {
 
 .navbar li:hover .dropdown {
   display: flex;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-footer {
-  background-color: grey;
-  color: white;
-  text-align: center;
-  margin-top: 10px;
-  padding: 20px 10px;
-  font-size: 14px;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
