@@ -71,3 +71,69 @@ ul li a:hover:not(.administration) {
 .navbar li:hover .dropdown {
   display: flex;
 }
+
+.teachers-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+  gap: 20px; 
+  padding-top: 15px;  
+}
+
+.teacher-card {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  width: 28%;
+  border: 5px solid;
+  border-image: linear-gradient(to bottom, skyblue, gold) 1;
+}
+
+.teacher-card img {
+  width: 200px;
+  height: 260px; 
+  object-fit: cover; 
+}
+
+
+.teacher-card h3 {
+  margin: 10px 0 5px 0;
+}
+
+.teacher-card p {
+  font-size: 16px;
+  color: black;
+}
+
+.role {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 15px; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
